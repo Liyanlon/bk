@@ -1,0 +1,330 @@
+body{
+    background-color: #eeeeee;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    height: .44rem;
+    width: 100%;
+}
+.headn{
+    height: .43rem;
+    width: 100%;
+    background-color: #393D49;
+    border-bottom: 1px solid #404553;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.head{
+    width: 3.45rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.head a{
+    width: .44rem;
+    height: .43rem;
+    position: absolute;
+    top: 0;
+}
+.zi{
+    display: block;
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .18rem;
+    text-align: center;
+    color: #fff;
+}
+.head input{
+    display: inline-block;
+    width: .36rem;
+    padding-left: .10rem;
+    height: .38rem;
+    line-height: .38rem;
+    border: none;
+    outline: none;
+    background: #393D49;
+    font-size: .14rem;
+    cursor: pointer;
+    border-radius: 0 .02rem .02rem 0;
+    position: absolute;
+    top: .03rem;
+    right: 0;
+}
+.so{
+    width: .36rem;
+    padding-left: .10rem;
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .14rem;
+    position: absolute;
+    color: #ccc;
+    top: 0;
+    right: 0;
+}
+.foot{
+    width: 100%;
+    padding: .15rem 0;
+    font-size: .12rem;
+    line-height: .2rem;
+    text-align: center;
+    color: #999;
+    font-weight: 300;
+    clear: both;
+    border-top: .01rem solid #404553;
+    background-color: #393D49;
+}
+.main{
+    margin: 0 .15rem;
+
+}
+.main p{
+    font-size: .12rem;
+
+}
+.beian{
+    font-size: .12rem;
+}
+.foot a{
+    padding: 0 .05rem;
+    color: #999;
+    font-size: .12rem;
+}
+.gongan{
+    overflow: hidden;
+}
+.gongan img{
+    display: inline-block;
+    height: .16rem;
+    width: .16rem;
+    /*margin-top: .02rem;*/
+    padding-right: .05rem;
+    border: none;
+}
+.dian{
+    position: fixed;
+    z-index: 998;
+    bottom: .15rem;
+    left: .15rem;
+    width: .50rem;
+    height: .50rem;
+    line-height: .50rem;
+    border-radius: .02rem;
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    cursor: pointer;
+    font-size: .2rem;
+    font-family:"宋体";
+    font-weight: bold;
+}
+.ding{
+    position: fixed;
+    z-index: 998;
+    bottom: .15rem;
+    right:.15rem;
+    width: .50rem;
+    height: .50rem;
+    line-height: .50rem;
+    border-radius: .02rem;
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    cursor: pointer;
+    font-size: .2rem;
+    font-family:"宋体";
+    font-weight: bold;
+    display: none;
+}
+.mask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.8);
+    z-index: 998;
+    display: none;
+}
+.dao{
+    width: 2rem;
+    position: fixed;
+    top: .44rem;
+    left: -2rem;
+    bottom: 0;
+    z-index: 999;
+    overflow-x: hidden;
+    background-color: #393D49;
+    color: #c2c2c2;
+    /*display: none;*/
+}
+.daoh{
+    width: 100%;
+    position: relative;
+    padding: 0 .20rem;
+    background-color: #393D49;
+    color: #c2c2c2;
+    font-size: 0;
+}
+.daoh a{
+    color: #c2c2c2;
+
+}
+.daoh li{
+    width: 100%;
+    line-height: .45rem;
+
+}
+/*搜索*/
+.sousuo{
+    width: 2.57rem;
+    height: .3rem;
+    border-radius: .02rem;
+    background: #fff;
+    position: fixed;
+    top: 0.07rem;
+    right: .15rem;
+    z-index: 99999;
+    float: left;
+    display: none;
+}
+.del{
+    width: .3rem;
+    height: .3rem;
+    text-align: center;
+    line-height: .3rem;
+    font-size: .25rem;
+    overflow: hidden;
+}
+.ji{
+    width: .68rem;
+    height: .3rem;
+    position: absolute;
+    top:0;
+    left: .3rem;
+}
+.ji select{
+    width: .68rem;
+    height: .29rem;
+    border: 0;
+    /*border-right:.02rem #e2e2e2 solid ;*/
+    padding-left:.17rem;
+    appearance:none;
+    -moz-appearance:none;
+    /*-webkit-appearance:none;*/
+    box-sizing: border-box;
+    outline: 0;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+}
+.ji option{
+    width: .68rem;
+    height: .3rem;
+
+    outline: 0;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.sousuo input{
+    height: .3rem;
+    padding-left: .1rem;
+    border: 0;
+    border-left:.01rem #ccc solid ;
+    position: absolute;
+    top:0;
+    right: 0;
+    outline: none;
+}
+/**/
+.to {
+    margin: .10rem .1rem;
+    background: #fff;
+    height: .34rem;
+    line-height: .40rem;
+    border-left: .05rem solid #009688;
+    padding-left: .15rem;
+    max-width: 100%;
+}
+.to a{
+    padding-right: .08rem;
+    line-height: .22rem;
+    font-size: .14rem;
+    color: #333;
+}
+.to a span{
+    padding-left: .08rem;
+    font-family: Sim sun;
+}
+/**/
+.riji{
+    margin: 0 .10rem;
+    position: relative;
+}
+.page{
+    padding: .15rem;
+    background: #fff;
+}
+.page h1{
+    text-align: left;
+    background: #fff;
+    padding-left: 0;
+    position: relative;
+    left: 1px;
+    top: 1px;
+    color: #009688;
+    line-height: .50rem;
+    font-size: .2rem;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+.page h1 span i{
+    font-size: .28rem;
+}
+.rijiben li{
+    position: relative;
+    z-index: 5;
+    margin: .30rem 0;
+    line-height: .28rem;
+}
+.date{
+    width: .95rem;
+    font-size: .12rem;
+    float: left;
+    text-align: right;
+}
+.ding i{
+    font-size: .4rem;
+    font-weight: 400;
+}
+.icon{
+    float: left;
+    /*width: 60px;*/
+    text-align: center;
+    background: #fff;
+    position: relative;
+    left: .13rem;
+    color: #009688;
+    font-size: .3rem;
+}
+.diary{
+    padding-left: 135px;
+    text-align: left;
+}
+.xian{
+    position: absolute;
+    left: 1.30rem;
+    top: .2rem;
+    height: 96%;
+    width: .02rem;
+    background: #009688;
+}
+.aa{
+    width: 100%;
+    height: .2rem;
+}
